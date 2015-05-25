@@ -1,0 +1,174 @@
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 95px;
+	width: 269px;
+}
+
+form input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+
+	width: 550px;
+	height: 27px;
+	border: 1px solid #ccc;
+	font-size: 1em;
+	font-family: Arial, Verdana, Sans-serif;
+	
+}
+
+form input:hover{
+	border: 1px solid #ababab;
+}
+
+
+
+#sButtons {
+	margin-top: 20px;
+	width: 100%;
+	text-align: center; 
+}
+
+#sButtons input {
+	border: 1px solid #ccc;
+	font: bold .7em Arial, Verdana, Sans-serif;
+	color: #404040;
+	padding: 5px 7px 5px 7px;
+	background-color: #F3F3F3;
+	border-radius: 2px;
+	margin: 0px 9px 80px 9px;
+}
+
+
+#middle {
+	width: 50%;
+  	height: 50%; 
+  	overflow: auto;
+  	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#header ul{
+	/* Had to switch the way I was doing the header 
+	   in order to get the apps square image to work
+
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0; */ 
+
+	display: block;
+	text-align: right;
+	padding-right: 20px;
+}
+
+#header li {
+	/* display: inline;
+	width: 70px;
+	padding: 5px; */
+
+	display: inline-block;
+	padding-right: 15px;
+	height: 2px;
+}
+
+#appsIcon {
+	display:block;
+	position:relative;
+	top :-18px;
+	background-image:url('https://ssl.gstatic.com/gb/images/v1_2e543709.png');
+	background-size: 112px 1828px;
+  	height: 30px;
+  	width: 30px;
+  	background-position: -51px -450px;
+  	opacity : .55;
+}
+
+#header button {
+	/* Google Button Magic to make it look the same */
+	border: 1px solid #4285f4;
+  	font-weight: bold;
+  	outline: none;
+  	color: #fff;
+  	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  	font-size: 13px;
+  	line-height: 28px;
+  	padding: 0 12px;
+  	border-radius: 2px;
+}
+
+
+#header a {
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: #404040;
+	line-height: 24px;
+	font-size: 13px;
+}
+
+#header a:visited {
+	color: #609;
+}
+
+#header a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+
+#footer {
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	font-size: small;
+	line-height: 40px;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	margin-left: -8px;
+
+}
+
+#footer ul{
+	list-style-type: none;
+	margin: 0 10px 0 0;
+}
+
+#footer li {
+	display: inline;
+	width: 70px;
+	padding: 13px;
+}
+
+#fLeft {
+	float: left;
+	padding-left: 10px;
+
+} 
+
+#fRight {
+	float: right;
+	padding-right: 10px;
+}
+
+#footer a {
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: #666;
+	line-height: 24px;
+	font-size: 13px;
+	white-space: nowrap;
+}
+
+#footer a:visited {
+	color: #609;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+	
+}
